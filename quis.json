@@ -1,0 +1,81 @@
+[
+{
+    "title" : "What is the real name of HTML?" , 
+    "answer_1": "Harry Tony Maguire Language.",
+    "answer_2": "Harry Text Markup Language.",
+    "answer_3": "Hyper Text Markup Language.",
+    "right_answer" : "Hyper Text Markup Language."
+} 
+,
+{
+    "title" : "Why are we use HTML?" , 
+    "answer_1": "to tell your web browser what each part of a website.",
+    "answer_2": "to define styles for your web pages, including the design.",
+    "answer_3": "to build complex interactive websites and browser games.",
+    "right_answer" : "to tell your web browser what each part of a website."
+} 
+,
+{
+    "title" : "What is the correct syntax?" , 
+    "answer_1": "<br>",
+    "answer_2": "</br>",
+    "answer_3": "<br></br>",
+    "right_answer" : "<br>"
+} 
+,
+{
+    "title" : "Where are we Write Div?" , 
+    "answer_1": "Head",
+    "answer_2": "Body",
+    "answer_3": "Html",
+    "right_answer" : "Body"
+}
+,
+{
+    "title" : "Can Html language move elements?" , 
+    "answer_1": "YES",
+    "answer_2": "NO",
+    "answer_3": "MAY BE",
+    "right_answer" : "NO"
+} 
+,
+{
+    "title" : "Can Html language make elements?" , 
+    "answer_1": "YES",
+    "answer_2": "NO",
+    "answer_3": "MAY BE",
+    "right_answer" : "YES"
+} ,
+{
+    "title" : "Can Html language design elements?" , 
+    "answer_1": "YES",
+    "answer_2": "NO",
+    "answer_3": "MAY BE",
+    "right_answer" : "NO"
+} 
+,
+{
+    "title" : "What element do we use to make a pragraph?" , 
+    "answer_1": "<p></p>",
+    "answer_2": "<b></b>",
+    "answer_3": "<br>",
+    "right_answer" : "<p></p>"
+}  
+,
+{
+    "title" : "What is my E-mail" , 
+    "answer_1":"Ahmad Bakr",
+    "answer_2": "(+20)1090358191" ,
+    "answer_3": "yahmedgg@gmail.com",
+    "right_answer" : "yahmedgg@gmail.com"
+} 
+
+,
+{
+    "title" : "Will you communicate with me" , 
+    "answer_1":"YES",
+    "answer_2": "NO" ,
+    "answer_3": "MAY BE",
+    "right_answer" : "YES"
+} 
+]

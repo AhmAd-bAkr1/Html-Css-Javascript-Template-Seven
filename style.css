@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  Tahoma , Arial;
+}
+
+.container{
+    margin: 20px auto;
+    width: 800px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+.container .quiz-info {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.container .quiz-info .category{
+    flex: 1;
+     
+}
+
+.container .quiz-info .count{
+flex: 1;
+text-align: right;
+}
+
+.container .quiz-area {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    
+}
+.container .quiz-area h2 {
+    margin: 0;
+    font-size: 30px;
+}
+.container .quiz-area .ansewrs-area{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.container .ansewrs-area .answer{
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container .ansewrs-area .answer:not(:last-child){
+    border-bottom: 1px solid #dfdfdf;
+}
+.container .ansewrs-area .answer input[type="Radio"]:checked + label{
+    color:#0075ff;
+}
+.container .ansewrs-area .answer label{
+    cursor: pointer;
+    font-weight:bold;
+    color: #777;
+    font-size: 15px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+.container #submit-buttn {
+    background-color: #0075ff;
+    display: block;
+    width: 90%;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px ;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px auto;
+}
+.container .bullets {
+    border-top: 1px solid #dfdfdf;
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+}
+
+.container .bullets .spans{
+    flex: 1;
+    display: flex;
+
+}
+.container .bullets .spans span{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.container .bullets .spans span.on{
+    background-color: #0075ff;
+}
+.container .results span{
+font-weight: bold;
+margin-left: 15px ;
+
+}
+.container .results span.perfect{
+color: #0075ff; 
+
+}
+.container .results span.good{
+color:#009688 ;
+
+}
+.container .results span.bad{
+color:#dc0a0a;
+
+}
